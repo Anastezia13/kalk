@@ -6,12 +6,30 @@ public static void main( String[] args) {
 Scanner input = new Scanner(System.in);
 int num1 = input.nextInt();
 int num2 = input.nextInt();
-System.out.println(sum(num1,num2));
+int operation = getOperation();
+int result = calc(num1, num2, operation);
+System.out.println(sum(num1,num2, operation));
 
 }
 public static int sum(int a, int b)
 {
 return a+b;
+}
+public static int vich(int a, int b)
+{
+return a-b;
+}
+public static int umnog (int a, int b)
+{
+return a*b;
+}
+public static int del(int a, int b)
+{
+return a/b;
+}
+public static int step(int a, int b)
+{
+return a**b;
 }
 
 }
