@@ -27,9 +27,9 @@ public static int del(int a, int b)
 {
 return a/b;
 }
-public static int step(int a, int b)
+
 {
-return a**b;
+return 0;
 }
 
 }
