@@ -40,7 +40,7 @@ return a/b;
 }
  
 System.out.print (заново? Да - 1. Нет - 2.) 
-    
+    String [] answer = {1,2};
 {
 return 0;
 }
