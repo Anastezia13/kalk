@@ -6,28 +6,41 @@ public static void main( String[] args) {
 Scanner input = new Scanner(System.in);
 int num1 = input.nextInt();
 int num2 = input.nextInt();
-int operation = getOperation();
-int result = calc(num1, num2, operation);
+int operation = input.nextInt();
+
 System.out.println(sum(num1,num2, operation));
 
 }
+If operation = (+) {
 public static int sum(int a, int b)
 {
 return a+b;
 }
+}
+
+If operation = (-) {
 public static int vich(int a, int b)
 {
 return a-b;
 }
+}
+
+If operation = (*) {
 public static int umnog (int a, int b)
 {
 return a*b;
 }
+}
+
+If operation = (/) {
 public static int del(int a, int b)
 {
 return a/b;
 }
-
+}
+ 
+System.out.print (заново? Да - 1. Нет - 2.) 
+    
 {
 return 0;
 }
